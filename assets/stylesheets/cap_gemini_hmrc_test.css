@@ -1,0 +1,95 @@
+/* Service info */
+
+.service-info {
+    border-top: 10px solid #005ea5;
+    padding-bottom: 0.5em;
+    max-width: 960px;
+    margin: 0 15px;
+}
+
+@media (min-width: 641px) {
+    .service-info {
+        margin: 0 auto;
+    }
+}
+
+/* Service Logo */
+.service-info .logo {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+@media (min-width: 641px) {
+    .service-info .logo {
+        float: left;
+        width: 33.33%;
+        margin-bottom: 0.5em;
+        margin-top: 0.7em;
+    }
+}
+
+.organisation-logo {
+    font-family: Helvetica, Arial;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    padding: 3px 0 2px 30px;
+    background-image: url(../images/hmrc_crest_18px_x2.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: auto 21px;
+    border-left: 2px solid #009390;
+}
+
+@media (min-width: 641px) {
+    .organisation-logo {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 3px 0 2px 38px;
+        background-image: url(../images/hmrc_crest_18px_x2.png);
+        background-position: 6px center;
+        border-left: 2px solid #009390;
+        white-space: nowrap;
+        background-size: auto 26px;
+    }
+}
+
+
+/* Content Container */
+
+.content {
+    max-width: 960px;
+    margin: 0 15px;
+}
+
+@media (min-width: 641px) {
+    .content {
+        margin: 0 auto;
+    }
+}
+
+
+
+/* heading-xlarge */
+
+.heading-xlarge {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 32px;
+    line-height: 1.09375;
+}
+
+@media (min-width: 641px) {
+    .heading-xlarge {
+        margin-top: 1.5em;
+        margin-bottom: 0.625em;
+        font-size: 48px;
+        line-height: 1.04167;
+    }
+}
+
+
