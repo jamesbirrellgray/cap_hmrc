@@ -1,3 +1,19 @@
+main {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 641px) {
+    main {
+        font-size: 19px;
+        line-height: 1.31579;
+    }
+}
+
 /* Service info */
 
 .service-info {
@@ -61,18 +77,30 @@
 
 /* Content Container */
 
-.content {
+#content {
     max-width: 960px;
     margin: 0 15px;
 }
 
 @media (min-width: 641px) {
-    .content {
+    #content {
         margin: 0 auto;
     }
 }
 
+/* Typography */
 
+p, .body-text {
+    margin-top: 0.3125em;
+    margin-bottom: 1.25em;
+}
+
+@media (min-width: 641px) { 
+    p, .body-text {
+        margin-top: 0.26316em;
+        margin-bottom: 1.05263em;
+    }
+}
 
 /* heading-xlarge */
 
@@ -86,10 +114,135 @@
 @media (min-width: 641px) {
     .heading-xlarge {
         margin-top: 1.5em;
-        margin-bottom: 0.625em;
+        margin-bottom: 1em;
         font-size: 48px;
         line-height: 1.04167;
     }
 }
 
+/* heading medium */
+.heading-medium {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+}
 
+@media (min-width: 641px) {
+    .heading-medium {
+        font-size: 24px;
+        line-height: 1.25;
+    }
+}
+
+
+/* Form elements */
+
+/* Form Label */
+
+.form-label {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    display: block;
+    color: #0b0c0c;
+    padding-bottom: 2px;
+}
+
+@media (min-width: 641px) {
+    .form-label {
+        font-size: 19px;
+        line-height: 1.31579;
+    }
+}
+
+.form-group {
+    margin-bottom: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media (min-width: 641px) {
+    .form-group {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Form control */
+
+input.form-control, textarea.form-control {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.form-control {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    width: 100%;
+    padding: 5px 4px 4px;
+    border: 2px solid #0b0c0c;
+}
+
+@media (min-width: 641px) {
+    .form-control {
+        width: 50%;
+        font-size: 19px;
+        line-height: 1.31579;
+    }
+}
+
+.form-section {
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (min-width: 641px) {
+    .form-section {
+        margin-bottom: 60px;
+    }
+}
+
+details {
+    display: block;
+    clear: both;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+details summary {
+    display: inline-block;
+    color: #005ea5;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 0.26316em;
+}
+
+.panel-border-narrow {
+    border-left-width: 5px;
+}
+
+.panel {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+    border-left-style: solid;
+    border-color: #bfc1c3;
+    padding: 0.78947em;
+    margin-bottom: 0.78947em;
+}
