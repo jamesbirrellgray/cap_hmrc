@@ -95,6 +95,23 @@ p, .body-text {
     margin-bottom: 1.25em;
 }
 
+@media (min-width: 641px) {
+    p, .body-text {
+        margin-top: 0.26316em;
+        margin-bottom: 1.05263em;
+    }
+}
+
+.text {
+    max-width: 30em;
+}
+
+@media (min-width: 641px) {
+   .text {
+        max-width: 30em;
+    } 
+}
+
 @media (min-width: 641px) { 
     p, .body-text {
         margin-top: 0.26316em;
@@ -161,6 +178,8 @@ p, .body-text {
     }
 }
 
+/* Form Group */
+
 .form-group {
     margin-bottom: 15px;
     -webkit-box-sizing: border-box;
@@ -172,7 +191,6 @@ p, .body-text {
         margin-bottom: 30px;
     }
 }
-
 
 /* Form control */
 
@@ -197,12 +215,13 @@ input.form-control, textarea.form-control {
 
 @media (min-width: 641px) {
     .form-control {
-        width: 50%;
+        width: 40%;
         font-size: 19px;
         line-height: 1.31579;
     }
 }
 
+/* Form Section */
 .form-section {
     margin-bottom: 30px;
     -webkit-box-sizing: border-box;
@@ -215,6 +234,8 @@ input.form-control, textarea.form-control {
         margin-bottom: 60px;
     }
 }
+
+/* Details */
 
 details {
     display: block;
@@ -245,4 +266,50 @@ details summary {
     border-color: #bfc1c3;
     padding: 0.78947em;
     margin-bottom: 0.78947em;
+}
+
+/* Specific image siziing */
+
+img#tax-number-location {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* Button */
+
+@media (max-width: 640px) {
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.button {
+    background-color: #00823b;
+    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    padding: .526315em .789473em .263157em;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    outline: 1px solid transparent;
+    outline-offset: -1px;
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0 2px 0 #003618;
+    -moz-box-shadow: 0 2px 0 #003618;
+    box-shadow: 0 2px 0 #003618;
+    font-size: 1em;
+    line-height: 1.25;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
 }

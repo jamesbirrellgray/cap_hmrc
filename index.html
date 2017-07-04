@@ -18,7 +18,7 @@
 
     <!-- JUST FOR TEST -->
     <link href="/assets/stylesheets/cap_gemini_hmrc_test.css" media="screen" rel="stylesheet" />
-
+    <!-- JUST FOR TEST END -->
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
     
     <link rel="mask-icon" href="/assets/images/gov.uk_logotype_crown.svg" color="#0b0c0c">
@@ -88,9 +88,20 @@
         </div>
     
         <div class="form-section">
-          <details>
-            <p></p>
-          <details>
+
+          <div class="text">
+            <p>Your tax credits renewal number is the 15 digit number on the bottom right hand corner of your annual decleration. Enter it below.</p>
+            <img id="tax-number-location" src="/assets/images/tax-credits-number.png" alt="3:2" title="Tax credits renewal number position">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="tax-credits-renewal-number">Your tax credits renewal number</label>
+            <input class="form-control" id="tax-credits-renewal-number" type="text" name="tax-credits-renewal-number">
+            
+          </div>
+
+          <input class="button" type="submit" value="Next">
+
         </div>
 
       </form>
