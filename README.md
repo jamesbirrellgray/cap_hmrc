@@ -12,6 +12,9 @@ Test Started at 07:55 04/07/2017
 * Next I created the form styling following form elements here
 * The design show's a pattern for "Show me where I can find this" that infact is not accessable - the correct pattern for hidden details can be found here https://govuk-elements.herokuapp.com/typography/example-details-summary/ - I have chosen to utilise the correct GDS approved pattern rather than the supplied design
 * The pattern for "Your tax credits renewal number" is dubious (I cannot find an expample that matches in either the HRMC or GDS style guides), however for the sake of the test I will try and code to the design (and test the accessablity after) ... pleaser note my question of the pattern at this point
+* Added the styling for buttons 
+* Added the details pollyfill for Aria and older browsers
+* Checked accesability & markup
 
 ## Starting a test server
 * Make sure you have python installed

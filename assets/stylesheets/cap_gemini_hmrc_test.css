@@ -313,3 +313,11 @@ img#tax-number-location {
     box-sizing: border-box;
     vertical-align: top;
 }
+
+
+/* Help link */
+
+a.help-with-page {
+    color: #6f777b !important;
+    text-decoration: underline !important;
+}
